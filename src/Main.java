@@ -12,7 +12,25 @@ public class Main {
 		System.out.println("****************************************");
 		System.out.println("");
 		
-		menu();
+		
+		int list[] = {24,1,45,20,56,75,2,56,99,53,12,100};
+		BinarySearch bs = new BinarySearch(list);
+		
+		int found = bs.find(75);
+		
+		if (found >= 0) {
+			System.out.println(list[found]);	
+		} else {
+			System.out.println("Not found.");
+		}
+		
+		
+		
+		
+		
+		
+		
+		//menu();
 		
 	}
 	
